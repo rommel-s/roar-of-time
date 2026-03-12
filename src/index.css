@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Pokemon Gen 4 Regular";
+  src: url("./assets/fonts/pokemon-gen-4-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pokemon Gen 4 Regular", sans-serif;
+}
+
+.relogio {
+  font-size: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.dialga {
+  width: 200px;
+  margin-left: 50vw;
+}
+
+.dialga-attack {
+  width: 100px;
+}
+
+.trainer {
+  width: 150px;
+}
