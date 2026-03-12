@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Pokemon Gen 4 Regular";
-  src: url("./fonts/pokemon-gen-4-regular.otf") format("opentype");
+  src: url("./assets/fonts/pokemon-gen-4-regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
