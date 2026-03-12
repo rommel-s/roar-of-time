@@ -1,11 +1,13 @@
 import { useState } from "react";
 
+import dialgaCry from "/assets/cry/dialga.mp3";
+
 import "./App.css";
 
 export default function App() {
   //tocar o cry com o botao
   const tocarSom = () => {
-    const audio = new Audio("/assets/cry/dialga.mp3");
+    const audio = new Audio(dialgaCry);
     audio.play().catch((error) => console.error("Erro ao tocar:", error));
     //espera um segundo pra falar as horas
     setTimeout(falarHoras, 1500);
@@ -68,7 +70,7 @@ export default function App() {
       </button>
 
       <img
-        src="/assets/trainer/DP_Lucas_Back.png"
+        src="./assets/trainer/DP_Lucas_Back.png"
         alt="Trainer"
         className="trainer test"
       />
